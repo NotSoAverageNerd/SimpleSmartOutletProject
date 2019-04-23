@@ -8,7 +8,8 @@ To update the pi's operating system:
 
 To install the apache Web server and php5:
 
-     sudo apt-get install apache2 php5
+     sudo apt-get install apache2
+     sudo apt-get install php7.0
 
 To give the php server access to write to the output pins run:
 
