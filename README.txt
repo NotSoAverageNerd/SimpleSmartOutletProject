@@ -2,6 +2,8 @@ Hello fellow nerds!
 
 Congrats on making it this far in my tutorial!
 
+Be sure to put all of these files in the /var/www directory of your raspberry pi! (outside of the folder you downloaded it in)
+
 Thanks for watching my YouTube video!
 
 This is the website which will allow you to access your lights/outlets/electronics from anywhere in the house!
