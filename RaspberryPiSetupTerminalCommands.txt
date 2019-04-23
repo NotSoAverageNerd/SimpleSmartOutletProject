@@ -19,4 +19,8 @@ Then add this line to the sudoers file:
 
     www-data ALL=NOPASSWD: ALL
 
+Then give all users permisions to change the file contents in the web server:
+
+    sudo chmod -R 777 /var/www
+
 And thats it!
