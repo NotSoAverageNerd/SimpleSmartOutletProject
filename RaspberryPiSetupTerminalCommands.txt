@@ -1,0 +1,21 @@
+Commands for setup in Raspberry Pi Terminal (In this order!):
+
+To update the pi's operating system:
+
+      sudo apt-get update.
+      sudo apt-get dist-upgrade
+
+
+To install the apache Web server and php5:
+
+     sudo apt-get install apache2 php5
+
+To give the php server access to write to the output pins run:
+
+    sudo visudo
+
+Then add this line to the sudoers file:
+
+    www-data ALL=NOPASSWD: ALL
+
+And thats it!

@@ -3,6 +3,7 @@
 ?>
 <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <script src="bootstrap/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script rel="script" src="main.js"></script>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -22,16 +23,16 @@
       </br>
       </br>
       </br>
-      <button type="button" class="btn btn-primary btn-lg" style="width: <?php echo $buttonWidth; ?>; font-size:<?php echo $buttonFontSize ?>"><?php echo $buttonTitleONE; ?></button>
+      <button id="button1" type="button" class="btn btn-secondary btn-lg" style="width: <?php echo $buttonWidth; ?>; font-size:<?php echo $buttonFontSize ?>"><?php echo $buttonTitleONE; ?></button>
       </br>
       </br>
-      <button type="button" class="btn btn-primary btn-lg" style="width: <?php echo $buttonWidth; ?>; font-size:<?php echo $buttonFontSize ?>"><?php echo $buttonTitleTWO; ?></button>
+      <button id="button2" type="button" class="btn btn-secondary btn-lg" style="width: <?php echo $buttonWidth; ?>; font-size:<?php echo $buttonFontSize ?>"><?php echo $buttonTitleTWO; ?></button>
       </br>
       </br>
-      <button type="button" class="btn btn-primary btn-lg" style="width: <?php echo $buttonWidth; ?>; font-size:<?php echo $buttonFontSize ?>"><?php echo $buttonTitleTHREE; ?></button>
+      <button id="button3" type="button" class="btn btn-secondary btn-lg" style="width: <?php echo $buttonWidth; ?>; font-size:<?php echo $buttonFontSize ?>"><?php echo $buttonTitleTHREE; ?></button>
       </br>
       </br>
-      <button type="button" class="btn btn-primary btn-lg" style="width: <?php echo $buttonWidth; ?>; font-size:<?php echo $buttonFontSize ?>"><?php echo $buttonTitleFOUR; ?></button>
+      <button id="button4" type="button" class="btn btn-secondary btn-lg" style="width: <?php echo $buttonWidth; ?>; font-size:<?php echo $buttonFontSize ?>"><?php echo $buttonTitleFOUR; ?></button>
     </center>
   </body>
 </html>

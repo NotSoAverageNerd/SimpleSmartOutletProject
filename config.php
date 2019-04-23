@@ -1,4 +1,16 @@
 <?php
+  //Here is the place where you can easily customize your website if you have trouble or are scared youll break something!
+  //P.S. Things can be still technically broken here, just try and keep the format im using and youll be fine!!!
+
+  //ATTENTION!!!!!  PIN CONFIGURATION:
+  //Bellow is where you put the numbers of your pins. Make sure you look up the model of
+  //Raspberry pi you've got so you can connect the outputs properly! (any of its GPIO pins)
+  $pin1 = "17";
+  $pin2 = "27";
+  $pin3 = "22";
+  $pin4 = "23";
+
+
   //Website Labels:
   $websiteTabLabel = "Raspberry Pi Smart Outlet";
   $mainWebsiteLabel = "Not So Average Nerd's Raspberry Pi Smart Outlet";
@@ -27,5 +39,5 @@
 
   //Button Styles:
   $buttonFontSize = "300%";
-  $buttonWidth = "70%";
+  $buttonWidth = "50%";
 ?>
