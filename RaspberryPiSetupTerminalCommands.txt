@@ -11,6 +11,10 @@ To install the apache Web server and php7.0:
      sudo apt-get install apache2
      sudo apt-get install php7.0
 
+Then give all users permisions to change the file contents in the web server:
+
+     sudo chmod -R 777 /var/www
+
 To give the php server access to write to the output pins run:
 
     sudo visudo
@@ -19,8 +23,6 @@ Then add this line to the sudoers file:
 
     www-data ALL=NOPASSWD: ALL
 
-Then give all users permisions to change the file contents in the web server:
 
-    sudo chmod -R 777 /var/www
 
 And thats it!
